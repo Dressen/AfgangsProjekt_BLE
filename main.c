@@ -966,8 +966,6 @@ int main(void)
 
     // Start execution.
     NRF_LOG_INFO("Heart Rate Sensor example started.");
-    NRF_LOG_INFO("Trying things out");
-    NRF_LOG_INFO("Trying more things out");
     application_timers_start();
     advertising_start(erase_bonds);
 
