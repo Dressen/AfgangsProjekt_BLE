@@ -51,11 +51,6 @@ _build/nrf52832_xxaa/nrf_crypto_hkdf.c.o: \
  c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_hmac.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_hmac.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_hmac.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_hmac_shared.h \
- c:\nrf52\sdk\external\nrf_oberon\include\occ_hmac_sha256.h \
- c:\nrf52\sdk\external\nrf_oberon\include\occ_sha256.h \
- c:\nrf52\sdk\external\nrf_oberon\include\occ_hmac_sha512.h \
- c:\nrf52\sdk\external\nrf_oberon\include\occ_sha512.h \
  c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_hkdf.h \
  c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_error.h \
  c:\nrf52\sdk\components\libraries\util\sdk_errors.h \
@@ -168,16 +163,6 @@ c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_hmac.h:
 c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_hmac.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_hmac.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_hmac_shared.h:
-
-c:\nrf52\sdk\external\nrf_oberon\include\occ_hmac_sha256.h:
-
-c:\nrf52\sdk\external\nrf_oberon\include\occ_sha256.h:
-
-c:\nrf52\sdk\external\nrf_oberon\include\occ_hmac_sha512.h:
-
-c:\nrf52\sdk\external\nrf_oberon\include\occ_sha512.h:
 
 c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_hkdf.h:
 

@@ -43,13 +43,7 @@ _build/nrf52832_xxaa/oberon_backend_chacha_poly_aead.c.o: \
  c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h \
  c:\nrf52\sdk\components\libraries\util\sdk_macros.h \
  c:\nrf52\sdk\components\libraries\util\nrf_assert.h \
- c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_chacha_poly_aead.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_aead_shared.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_types.h \
- c:\nrf52\sdk\external\nrf_oberon\include\occ_chacha20_poly1305.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_error.h \
- c:\nrf52\sdk\components\libraries\util\sdk_errors.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_types.h
+ c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_chacha_poly_aead.h
 
 c:\nrf52\sdk\components\libraries\util\sdk_common.h:
 
@@ -138,15 +132,3 @@ c:\nrf52\sdk\components\libraries\util\sdk_macros.h:
 c:\nrf52\sdk\components\libraries\util\nrf_assert.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_chacha_poly_aead.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_aead_shared.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_types.h:
-
-c:\nrf52\sdk\external\nrf_oberon\include\occ_chacha20_poly1305.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_error.h:
-
-c:\nrf52\sdk\components\libraries\util\sdk_errors.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_types.h:

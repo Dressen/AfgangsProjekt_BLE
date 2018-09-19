@@ -59,7 +59,6 @@ _build/nrf52832_xxaa/nrf_crypto_ecdh.c.o: \
  c:\nrf52\sdk\components\libraries\crypto\backend\cc310_bl\cc310_bl_backend_ecc.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_ecc.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_ecc.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecc_shared.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\micro_ecc\micro_ecc_backend_ecc.h \
  c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecdh.h \
  c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecdh_shared.h \
@@ -68,8 +67,6 @@ _build/nrf52832_xxaa/nrf_crypto_ecdh.c.o: \
  c:\nrf52\sdk\components\libraries\crypto\backend\cc310_bl\cc310_bl_backend_ecdh.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_ecdh.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_ecdh.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecc.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecdh_shared.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\micro_ecc\micro_ecc_backend_ecdh.h \
  c:\nrf52\sdk\components\libraries\util\app_util.h \
  c:\nrf52\sdk\components\libraries\util\sdk_macros.h
@@ -192,8 +189,6 @@ c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_ecc.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_ecc.h:
 
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecc_shared.h:
-
 c:\nrf52\sdk\components\libraries\crypto\backend\micro_ecc\micro_ecc_backend_ecc.h:
 
 c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecdh.h:
@@ -209,10 +204,6 @@ c:\nrf52\sdk\components\libraries\crypto\backend\cc310_bl\cc310_bl_backend_ecdh.
 c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_ecdh.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_ecdh.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecc.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecdh_shared.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\micro_ecc\micro_ecc_backend_ecdh.h:
 

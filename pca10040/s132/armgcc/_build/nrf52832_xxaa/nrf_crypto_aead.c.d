@@ -53,11 +53,7 @@ _build/nrf52832_xxaa/nrf_crypto_aead.c.o: \
  c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_chacha_poly_aead.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\cifra\cifra_backend_aes_aead.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_aes_aead.h \
- c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_chacha_poly_aead.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_aead_shared.h \
- c:\nrf52\sdk\external\nrf_oberon\include\occ_chacha20_poly1305.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_error.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_types.h
+ c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_chacha_poly_aead.h
 
 c:\nrf52\sdk\components\libraries\util\sdk_common.h:
 
@@ -166,11 +162,3 @@ c:\nrf52\sdk\components\libraries\crypto\backend\cifra\cifra_backend_aes_aead.h:
 c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_aes_aead.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_chacha_poly_aead.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_aead_shared.h:
-
-c:\nrf52\sdk\external\nrf_oberon\include\occ_chacha20_poly1305.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_error.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_types.h:

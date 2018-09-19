@@ -42,39 +42,7 @@ _build/nrf52832_xxaa/peer_id.c.o: \
  c:\nrf52\sdk\modules\nrfx\mdk\nrf52_name_change.h \
  c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h \
  c:\nrf52\sdk\components\libraries\util\sdk_macros.h \
- c:\nrf52\sdk\components\libraries\util\nrf_assert.h \
- c:\nrf52\sdk\components\ble\peer_manager\peer_id.h \
- c:\nrf52\sdk\components\libraries\util\sdk_errors.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gap.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\nrf_svc.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\nrf_error.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_hci.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_ranges.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_types.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_err.h \
- c:\nrf52\sdk\components\ble\peer_manager\peer_manager_types.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_hci.h \
- c:\nrf52\sdk\components\ble\common\ble_gatt_db.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gap.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_l2cap.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatt.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gattc.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatts.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gattc.h \
- c:\nrf52\sdk\components\libraries\util\app_util.h \
- c:\nrf52\sdk\components\libraries\util\app_util_platform.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\nrf_soc.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\nrf_error_soc.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\nrf_nvic.h \
- c:\nrf52\sdk\components\libraries\util\app_error.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdio.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdarg.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\types.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\types.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\stdio.h \
- c:\nrf52\sdk\components\libraries\util\app_error_weak.h \
- c:\nrf52\sdk\components\libraries\atomic_flags\nrf_atflags.h
+ c:\nrf52\sdk\components\libraries\util\nrf_assert.h
 
 c:\nrf52\sdk\components\libraries\util\sdk_common.h:
 
@@ -161,67 +129,3 @@ c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h:
 c:\nrf52\sdk\components\libraries\util\sdk_macros.h:
 
 c:\nrf52\sdk\components\libraries\util\nrf_assert.h:
-
-c:\nrf52\sdk\components\ble\peer_manager\peer_id.h:
-
-c:\nrf52\sdk\components\libraries\util\sdk_errors.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gap.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\nrf_svc.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\nrf_error.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_hci.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_ranges.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_types.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_err.h:
-
-c:\nrf52\sdk\components\ble\peer_manager\peer_manager_types.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_hci.h:
-
-c:\nrf52\sdk\components\ble\common\ble_gatt_db.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gap.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_l2cap.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatt.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gattc.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatts.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gattc.h:
-
-c:\nrf52\sdk\components\libraries\util\app_util.h:
-
-c:\nrf52\sdk\components\libraries\util\app_util_platform.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\nrf_soc.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\nrf_error_soc.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\nrf_nvic.h:
-
-c:\nrf52\sdk\components\libraries\util\app_error.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdio.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdarg.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\types.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\types.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\stdio.h:
-
-c:\nrf52\sdk\components\libraries\util\app_error_weak.h:
-
-c:\nrf52\sdk\components\libraries\atomic_flags\nrf_atflags.h:

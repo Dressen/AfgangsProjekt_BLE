@@ -49,6 +49,8 @@
 						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/ble_services/ble_rscs_c"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/common"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/ble_services/ble_lls"/>
+						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/ble_db_discovery"/>
+						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/nrf_ble_scan"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/bsp"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/crypto/backend/nrf_hw"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/nfc/ndef/connection_handover/ac_rec"/>
@@ -125,6 +127,7 @@
 						<entry kind="includePath" name="C:/nrf52/sdk/components/nfc/ndef/parser/message"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/crypto/backend/mbedtls"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/crypto/backend/cc310"/>
+						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/uart"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/external/nrf_oberon"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/external/micro-ecc"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/ble_services/ble_dis"/>

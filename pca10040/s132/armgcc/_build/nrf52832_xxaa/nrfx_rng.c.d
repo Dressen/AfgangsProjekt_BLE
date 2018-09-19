@@ -65,23 +65,7 @@ _build/nrf52832_xxaa/nrfx_rng.c.o: \
  c:\nrf52\sdk\components\libraries\util\sdk_errors.h \
  c:\nrf52\sdk\components\libraries\util\sdk_resources.h \
  c:\nrf52\sdk\components\softdevice\s132\headers\nrf_sd_def.h \
- c:\nrf52\sdk\modules\nrfx\drivers\nrfx_errors.h \
- c:\nrf52\sdk\modules\nrfx\drivers\include\nrfx_rng.h \
- c:\nrf52\sdk\modules\nrfx\hal\nrf_rng.h \
- c:\nrf52\sdk\integration\nrfx\nrfx_log.h \
- c:\nrf52\sdk\components\libraries\log\nrf_log.h \
- c:\nrf52\sdk\components\libraries\util\sdk_common.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\string.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\string.h \
- c:\nrf52\sdk\components\libraries\util\sdk_os.h \
- c:\nrf52\sdk\components\libraries\util\app_util.h \
- c:\nrf52\sdk\components\libraries\util\sdk_macros.h \
- c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section.h \
- c:\nrf52\sdk\components\libraries\strerror\nrf_strerror.h \
- c:\nrf52\sdk\components\libraries\log\src\nrf_log_internal.h \
- c:\nrf52\sdk\components\libraries\log\nrf_log_instance.h \
- c:\nrf52\sdk\components\libraries\log\nrf_log_types.h \
- c:\nrf52\sdk\components\libraries\log\nrf_log_types.h
+ c:\nrf52\sdk\modules\nrfx\drivers\nrfx_errors.h
 
 c:\nrf52\sdk\modules\nrfx\nrfx.h:
 
@@ -216,35 +200,3 @@ c:\nrf52\sdk\components\libraries\util\sdk_resources.h:
 c:\nrf52\sdk\components\softdevice\s132\headers\nrf_sd_def.h:
 
 c:\nrf52\sdk\modules\nrfx\drivers\nrfx_errors.h:
-
-c:\nrf52\sdk\modules\nrfx\drivers\include\nrfx_rng.h:
-
-c:\nrf52\sdk\modules\nrfx\hal\nrf_rng.h:
-
-c:\nrf52\sdk\integration\nrfx\nrfx_log.h:
-
-c:\nrf52\sdk\components\libraries\log\nrf_log.h:
-
-c:\nrf52\sdk\components\libraries\util\sdk_common.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\string.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\sys\string.h:
-
-c:\nrf52\sdk\components\libraries\util\sdk_os.h:
-
-c:\nrf52\sdk\components\libraries\util\app_util.h:
-
-c:\nrf52\sdk\components\libraries\util\sdk_macros.h:
-
-c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section.h:
-
-c:\nrf52\sdk\components\libraries\strerror\nrf_strerror.h:
-
-c:\nrf52\sdk\components\libraries\log\src\nrf_log_internal.h:
-
-c:\nrf52\sdk\components\libraries\log\nrf_log_instance.h:
-
-c:\nrf52\sdk\components\libraries\log\nrf_log_types.h:
-
-c:\nrf52\sdk\components\libraries\log\nrf_log_types.h:
