@@ -42,32 +42,7 @@ _build/nrf52832_xxaa/ble_hrs.c.o: \
  c:\nrf52\sdk\modules\nrfx\mdk\nrf52_name_change.h \
  c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h \
  c:\nrf52\sdk\components\libraries\util\sdk_macros.h \
- c:\nrf52\sdk\components\libraries\util\nrf_assert.h \
- c:\nrf52\sdk\components\ble\ble_services\ble_hrs\ble_hrs.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\nrf_svc.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\nrf_error.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_err.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gap.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_hci.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_ranges.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_types.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_l2cap.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatt.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gattc.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatts.h \
- c:\nrf52\sdk\components\ble\common\ble_srv_common.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_types.h \
- c:\nrf52\sdk\components\libraries\util\app_util.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gap.h \
- c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatt.h \
- c:\nrf52\sdk\components\softdevice\common\nrf_sdh_ble.h \
- c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section_iter.h \
- c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section.h \
- c:\nrf52\sdk\components\libraries\util\nordic_common.h \
- c:\nrf52\sdk\components\libraries\util\nrf_assert.h \
- c:\nrf52\sdk\components\libraries\util\sdk_errors.h \
- c:\nrf52\sdk\components\ble\nrf_ble_gatt\nrf_ble_gatt.h
+ c:\nrf52\sdk\components\libraries\util\nrf_assert.h
 
 c:\nrf52\sdk\components\libraries\util\sdk_common.h:
 
@@ -154,53 +129,3 @@ c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h:
 c:\nrf52\sdk\components\libraries\util\sdk_macros.h:
 
 c:\nrf52\sdk\components\libraries\util\nrf_assert.h:
-
-c:\nrf52\sdk\components\ble\ble_services\ble_hrs\ble_hrs.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\nrf_svc.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\nrf_error.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_err.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gap.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_hci.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_ranges.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_types.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_l2cap.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatt.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gattc.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatts.h:
-
-c:\nrf52\sdk\components\ble\common\ble_srv_common.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_types.h:
-
-c:\nrf52\sdk\components\libraries\util\app_util.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gap.h:
-
-c:\nrf52\sdk\components\softdevice\s132\headers\ble_gatt.h:
-
-c:\nrf52\sdk\components\softdevice\common\nrf_sdh_ble.h:
-
-c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section_iter.h:
-
-c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section.h:
-
-c:\nrf52\sdk\components\libraries\util\nordic_common.h:
-
-c:\nrf52\sdk\components\libraries\util\nrf_assert.h:
-
-c:\nrf52\sdk\components\libraries\util\sdk_errors.h:
-
-c:\nrf52\sdk\components\ble\nrf_ble_gatt\nrf_ble_gatt.h:

@@ -6,7 +6,7 @@ SDK_ROOT := ../../../../../../../sdk
 PROJ_DIR := ../../../
 
 $(OUTPUT_DIRECTORY)/nrf52832_xxaa.out: \
-  LINKER_SCRIPT  := ble_app_hrs_gcc_nrf52.ld
+  LINKER_SCRIPT  := ble_app_hrs_c_gcc_nrf52.ld
 
 # Source files common to all targets
 SRC_FILES += \
@@ -47,6 +47,7 @@ SRC_FILES += \
   $(SDK_ROOT)/components/libraries/crypto/backend/micro_ecc/micro_ecc_backend_ecc.c \
   $(SDK_ROOT)/components/libraries/crypto/backend/micro_ecc/micro_ecc_backend_ecdh.c \
   $(SDK_ROOT)/components/libraries/crypto/backend/micro_ecc/micro_ecc_backend_ecdsa.c \
+  $(SDK_ROOT)/components/libraries/uart/app_uart.c \
   $(SDK_ROOT)/integration/nrfx/legacy/nrf_drv_clock.c \
   $(SDK_ROOT)/integration/nrfx/legacy/nrf_drv_rng.c \
   $(SDK_ROOT)/integration/nrfx/legacy/nrf_drv_uart.c \
@@ -148,9 +149,12 @@ SRC_FILES += \
   $(SDK_ROOT)/external/mbedtls/library/x509_crt.c \
   $(SDK_ROOT)/external/mbedtls/library/x509_csr.c \
   $(SDK_ROOT)/external/mbedtls/library/xtea.c \
+  $(SDK_ROOT)/components/ble/ble_services/ble_bas_c/ble_bas_c.c \
   $(SDK_ROOT)/components/ble/ble_services/ble_bas/ble_bas.c \
   $(SDK_ROOT)/components/ble/ble_services/ble_dis/ble_dis.c \
   $(SDK_ROOT)/components/ble/ble_services/ble_hrs/ble_hrs.c \
+  $(SDK_ROOT)/components/ble/ble_services/ble_hrs_c/ble_hrs_c.c \
+  $(SDK_ROOT)/components/ble/ble_services/ble_nus_c/ble_nus_c.c \
   $(SDK_ROOT)/components/softdevice/common/nrf_sdh.c \
   $(SDK_ROOT)/components/softdevice/common/nrf_sdh_ble.c \
   $(SDK_ROOT)/components/softdevice/common/nrf_sdh_soc.c \
@@ -178,6 +182,7 @@ SRC_FILES += \
   $(SDK_ROOT)/components/ble/peer_manager/auth_status_tracker.c \
   $(SDK_ROOT)/components/ble/common/ble_advdata.c \
   $(SDK_ROOT)/components/ble/ble_advertising/ble_advertising.c \
+  $(SDK_ROOT)/components/ble/ble_db_discovery/ble_db_discovery.c \
   $(SDK_ROOT)/components/ble/common/ble_conn_params.c \
   $(SDK_ROOT)/components/ble/common/ble_conn_state.c \
   $(SDK_ROOT)/components/ble/common/ble_srv_common.c \
@@ -187,6 +192,7 @@ SRC_FILES += \
   $(SDK_ROOT)/components/ble/nrf_ble_gatt/nrf_ble_gatt.c \
   $(SDK_ROOT)/components/ble/peer_manager/nrf_ble_lesc.c \
   $(SDK_ROOT)/components/ble/nrf_ble_qwr/nrf_ble_qwr.c \
+  $(SDK_ROOT)/components/ble/nrf_ble_scan/nrf_ble_scan.c \
   $(SDK_ROOT)/components/ble/peer_manager/peer_data_storage.c \
   $(SDK_ROOT)/components/ble/peer_manager/peer_database.c \
   $(SDK_ROOT)/components/ble/peer_manager/peer_id.c \
@@ -221,6 +227,7 @@ INC_FOLDERS += \
   $(SDK_ROOT)/components/libraries/mutex \
   $(SDK_ROOT)/components/libraries/gpiote \
   $(SDK_ROOT)/components/libraries/bootloader/ble_dfu \
+  $(SDK_ROOT)/components/libraries/uart \
   $(SDK_ROOT)/components/nfc/ndef/connection_handover/common \
   $(SDK_ROOT)/components/boards \
   $(SDK_ROOT)/components/nfc/ndef/generic/record \
@@ -315,6 +322,7 @@ INC_FOLDERS += \
   $(SDK_ROOT)/components/libraries/ringbuf \
   $(SDK_ROOT)/components/ble/ble_services/ble_tps \
   $(SDK_ROOT)/components/ble/ble_services/ble_rscs \
+  $(SDK_ROOT)/components/ble/ble_db_discovery \
   $(SDK_ROOT)/components/nfc/ndef/parser/message \
   $(SDK_ROOT)/components/libraries/crypto/backend/mbedtls \
   $(SDK_ROOT)/components/libraries/crypto/backend/cc310 \
@@ -324,6 +332,7 @@ INC_FOLDERS += \
   $(SDK_ROOT)/components/nfc/ndef/uri \
   $(SDK_ROOT)/components/ble/nrf_ble_gatt \
   $(SDK_ROOT)/components/ble/nrf_ble_qwr \
+  $(SDK_ROOT)/components/ble/nrf_ble_scan \
   $(SDK_ROOT)/components/libraries/gfx \
   $(SDK_ROOT)/components/libraries/button \
   $(SDK_ROOT)/modules/nrfx \

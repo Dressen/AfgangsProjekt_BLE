@@ -28,6 +28,7 @@
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/mutex"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/gpiote"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/bootloader/ble_dfu"/>
+						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/uart"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/nfc/ndef/connection_handover/common"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/boards"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/nfc/ndef/generic/record"/>
@@ -122,6 +123,7 @@
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/ringbuf"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/ble_services/ble_tps"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/ble_services/ble_rscs"/>
+						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/ble_db_discovery"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/nfc/ndef/parser/message"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/crypto/backend/mbedtls"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/crypto/backend/cc310"/>
@@ -131,6 +133,7 @@
 						<entry kind="includePath" name="C:/nrf52/sdk/components/nfc/ndef/uri"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/nrf_ble_gatt"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/nrf_ble_qwr"/>
+						<entry kind="includePath" name="C:/nrf52/sdk/components/ble/nrf_ble_scan"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/gfx"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/components/libraries/button"/>
 						<entry kind="includePath" name="C:/nrf52/sdk/modules/nrfx"/>

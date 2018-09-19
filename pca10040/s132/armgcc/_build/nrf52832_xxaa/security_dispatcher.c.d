@@ -81,7 +81,6 @@ _build/nrf52832_xxaa/security_dispatcher.c.o: \
  c:\nrf52\sdk\components\ble\peer_manager\peer_manager_internal.h \
  c:\nrf52\sdk\components\ble\peer_manager\peer_database.h \
  c:\nrf52\sdk\components\ble\peer_manager\id_manager.h \
- c:\nrf52\sdk\components\ble\peer_manager\auth_status_tracker.h \
  c:\nrf52\sdk\components\libraries\log\nrf_log.h \
  c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section.h \
  c:\nrf52\sdk\components\libraries\util\nordic_common.h \
@@ -259,8 +258,6 @@ c:\nrf52\sdk\components\ble\peer_manager\peer_manager_internal.h:
 c:\nrf52\sdk\components\ble\peer_manager\peer_database.h:
 
 c:\nrf52\sdk\components\ble\peer_manager\id_manager.h:
-
-c:\nrf52\sdk\components\ble\peer_manager\auth_status_tracker.h:
 
 c:\nrf52\sdk\components\libraries\log\nrf_log.h:
 
