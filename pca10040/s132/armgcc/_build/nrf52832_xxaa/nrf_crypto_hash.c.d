@@ -52,9 +52,6 @@ _build/nrf52832_xxaa/nrf_crypto_hash.c.o: \
  c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_hash.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_hash.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_hash.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_hash_shared.h \
- c:\nrf52\sdk\external\nrf_oberon\include\occ_sha256.h \
- c:\nrf52\sdk\external\nrf_oberon\include\occ_sha512.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\cc310_bl\cc310_bl_backend_hash.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\nrf_sw\nrf_sw_backend_hash.h \
  c:\nrf52\sdk\components\libraries\util\app_util.h \
@@ -169,12 +166,6 @@ c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_hash.h:
 c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_hash.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_hash.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_hash_shared.h:
-
-c:\nrf52\sdk\external\nrf_oberon\include\occ_sha256.h:
-
-c:\nrf52\sdk\external\nrf_oberon\include\occ_sha512.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\cc310_bl\cc310_bl_backend_hash.h:
 

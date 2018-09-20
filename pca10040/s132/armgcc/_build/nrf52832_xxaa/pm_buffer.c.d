@@ -42,10 +42,7 @@ _build/nrf52832_xxaa/pm_buffer.c.o: \
  c:\nrf52\sdk\modules\nrfx\mdk\nrf52_name_change.h \
  c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h \
  c:\nrf52\sdk\components\libraries\util\sdk_macros.h \
- c:\nrf52\sdk\components\libraries\util\nrf_assert.h \
- c:\nrf52\sdk\components\ble\peer_manager\pm_buffer.h \
- c:\nrf52\sdk\components\libraries\util\sdk_errors.h \
- c:\nrf52\sdk\components\libraries\atomic_flags\nrf_atflags.h
+ c:\nrf52\sdk\components\libraries\util\nrf_assert.h
 
 c:\nrf52\sdk\components\libraries\util\sdk_common.h:
 
@@ -132,9 +129,3 @@ c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h:
 c:\nrf52\sdk\components\libraries\util\sdk_macros.h:
 
 c:\nrf52\sdk\components\libraries\util\nrf_assert.h:
-
-c:\nrf52\sdk\components\ble\peer_manager\pm_buffer.h:
-
-c:\nrf52\sdk\components\libraries\util\sdk_errors.h:
-
-c:\nrf52\sdk\components\libraries\atomic_flags\nrf_atflags.h:

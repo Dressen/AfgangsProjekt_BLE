@@ -42,10 +42,7 @@ _build/nrf52832_xxaa/crc16.c.o: \
  c:\nrf52\sdk\modules\nrfx\mdk\nrf52_name_change.h \
  c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h \
  c:\nrf52\sdk\components\libraries\util\sdk_macros.h \
- c:\nrf52\sdk\components\libraries\util\nrf_assert.h \
- c:\nrf52\sdk\components\libraries\crc16\crc16.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdlib.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\stdlib.h
+ c:\nrf52\sdk\components\libraries\util\nrf_assert.h
 
 c:\nrf52\sdk\components\libraries\util\sdk_common.h:
 
@@ -132,9 +129,3 @@ c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h:
 c:\nrf52\sdk\components\libraries\util\sdk_macros.h:
 
 c:\nrf52\sdk\components\libraries\util\nrf_assert.h:
-
-c:\nrf52\sdk\components\libraries\crc16\crc16.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\stdlib.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\stdlib.h:

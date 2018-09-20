@@ -42,27 +42,7 @@ _build/nrf52832_xxaa/nrf_hw_backend_init.c.o: \
  c:\nrf52\sdk\modules\nrfx\mdk\nrf52_name_change.h \
  c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h \
  c:\nrf52\sdk\components\libraries\util\sdk_macros.h \
- c:\nrf52\sdk\components\libraries\util\nrf_assert.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_init.h \
- c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section.h \
- c:\nrf52\sdk\components\libraries\util\nordic_common.h \
- c:\nrf52\sdk\components\libraries\util\sdk_errors.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_types.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_rng.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_error.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_rng_shared.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_rng_backend.h \
- c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_rng.h \
- c:\nrf52\sdk\components\libraries\crypto\backend\nrf_hw\nrf_hw_backend_rng.h \
- c:\nrf52\sdk\components\libraries\crypto\backend\nrf_hw\nrf_hw_backend_rng_mbedtls.h \
- c:\nrf52\sdk\external\mbedtls\include\mbedtls\ctr_drbg.h \
- c:\nrf52\sdk\external\mbedtls\include\mbedtls\aes.h \
- c:\nrf52\sdk\external\nrf_tls\mbedtls\nrf_crypto\config\nrf_crypto_mbedtls_config.h \
- c:\nrf52\sdk\external\mbedtls\include\mbedtls\check_config.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include-fixed\limits.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include-fixed\syslimits.h \
- c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\limits.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_rng_shared.h
+ c:\nrf52\sdk\components\libraries\util\nrf_assert.h
 
 c:\nrf52\sdk\components\libraries\util\sdk_common.h:
 
@@ -149,43 +129,3 @@ c:\nrf52\sdk\modules\nrfx\mdk\compiler_abstraction.h:
 c:\nrf52\sdk\components\libraries\util\sdk_macros.h:
 
 c:\nrf52\sdk\components\libraries\util\nrf_assert.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_init.h:
-
-c:\nrf52\sdk\components\libraries\experimental_section_vars\nrf_section.h:
-
-c:\nrf52\sdk\components\libraries\util\nordic_common.h:
-
-c:\nrf52\sdk\components\libraries\util\sdk_errors.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_types.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_rng.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_error.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_rng_shared.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_rng_backend.h:
-
-c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_rng.h:
-
-c:\nrf52\sdk\components\libraries\crypto\backend\nrf_hw\nrf_hw_backend_rng.h:
-
-c:\nrf52\sdk\components\libraries\crypto\backend\nrf_hw\nrf_hw_backend_rng_mbedtls.h:
-
-c:\nrf52\sdk\external\mbedtls\include\mbedtls\ctr_drbg.h:
-
-c:\nrf52\sdk\external\mbedtls\include\mbedtls\aes.h:
-
-c:\nrf52\sdk\external\nrf_tls\mbedtls\nrf_crypto\config\nrf_crypto_mbedtls_config.h:
-
-c:\nrf52\sdk\external\mbedtls\include\mbedtls\check_config.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include-fixed\limits.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include-fixed\syslimits.h:
-
-c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\limits.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_rng_shared.h:

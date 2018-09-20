@@ -21,7 +21,6 @@ _build/nrf52832_xxaa/nrf_crypto_eddsa.c.o: \
  c:\nrf52\sdk\components\libraries\crypto\backend\cc310_bl\cc310_bl_backend_ecc.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_ecc.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_ecc.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecc_shared.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\micro_ecc\micro_ecc_backend_ecc.h \
  c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_eddsa.h \
  c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_eddsa_shared.h \
@@ -29,7 +28,6 @@ _build/nrf52832_xxaa/nrf_crypto_eddsa.c.o: \
  c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecdsa_shared.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_eddsa.h \
  c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_eddsa.h \
- c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_eddsa_shared.h \
  c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_mem.h \
  c:\nrf52\sdk\components\libraries\util\sdk_common.h \
  c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\string.h \
@@ -113,8 +111,6 @@ c:\nrf52\sdk\components\libraries\crypto\backend\mbedtls\mbedtls_backend_ecc.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_ecc.h:
 
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecc_shared.h:
-
 c:\nrf52\sdk\components\libraries\crypto\backend\micro_ecc\micro_ecc_backend_ecc.h:
 
 c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_eddsa.h:
@@ -128,8 +124,6 @@ c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_ecdsa_shared.h:
 c:\nrf52\sdk\components\libraries\crypto\backend\cc310\cc310_backend_eddsa.h:
 
 c:\nrf52\sdk\components\libraries\crypto\backend\oberon\oberon_backend_eddsa.h:
-
-c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_eddsa_shared.h:
 
 c:\nrf52\sdk\components\libraries\crypto\nrf_crypto_mem.h:
 
