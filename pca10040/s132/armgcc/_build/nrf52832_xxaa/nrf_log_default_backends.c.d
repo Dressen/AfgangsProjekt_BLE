@@ -73,7 +73,7 @@ _build/nrf52832_xxaa/nrf_log_default_backends.c.o: \
  c:\nrf52\sdk\components\libraries\log\src\nrf_log_internal.h \
  c:\nrf52\sdk\components\libraries\log\nrf_log_types.h \
  c:\nrf52\sdk\components\libraries\util\nrf_assert.h \
- c:\nrf52\sdk\components\libraries\log\nrf_log_backend_rtt.h
+ c:\nrf52\sdk\components\libraries\log\nrf_log_backend_uart.h
 
 c:\nrf52\sdk\components\libraries\util\sdk_common.h:
 
@@ -221,4 +221,4 @@ c:\nrf52\sdk\components\libraries\log\nrf_log_types.h:
 
 c:\nrf52\sdk\components\libraries\util\nrf_assert.h:
 
-c:\nrf52\sdk\components\libraries\log\nrf_log_backend_rtt.h:
+c:\nrf52\sdk\components\libraries\log\nrf_log_backend_uart.h:

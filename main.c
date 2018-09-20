@@ -372,7 +372,11 @@ static void ble_evt_handler(ble_evt_t const * p_ble_evt, void * p_context)
 {
     ret_code_t            err_code;
     ble_gap_evt_t const * p_gap_evt = &p_ble_evt->evt.gap_evt;
-
+    NRF_LOG_INFO("Advertisement packet: Data length: %d Data: 0x%x Transmit power: %d Receive power: %d",
+    			p_gap_evt->params.adv_report.data.len,
+    			p_gap_evt->params.adv_report.data.p_data,
+				p_gap_evt->params.adv_report.tx_power,
+				p_gap_evt->params.adv_report.rssi);
     switch (p_ble_evt->header.evt_id)
     {
         case BLE_GAP_EVT_CONNECTED:
@@ -528,32 +532,6 @@ void bsp_event_handler(bsp_event_t event)
     }
 }
 
-/**@brief Function for initializing the UART. */
-static void uart_init(void)
-{
-    ret_code_t err_code;
-
-    app_uart_comm_params_t const comm_params =
-    {
-        .rx_pin_no    = RX_PIN_NUMBER,
-        .tx_pin_no    = TX_PIN_NUMBER,
-        .rts_pin_no   = RTS_PIN_NUMBER,
-        .cts_pin_no   = CTS_PIN_NUMBER,
-        .flow_control = APP_UART_FLOW_CONTROL_DISABLED,
-        .use_parity   = false,
-        .baud_rate    = UART_BAUDRATE_BAUDRATE_Baud115200
-    };
-
-    APP_UART_FIFO_INIT(&comm_params,
-                       UART_RX_BUF_SIZE,
-                       UART_TX_BUF_SIZE,
-                       uart_event_handle,
-                       APP_IRQ_PRIORITY_LOWEST,
-                       err_code);
-
-    APP_ERROR_CHECK(err_code);
-}
-
 /**@brief Function for initializing the Nordic UART Service (NUS) client. */
 static void nus_c_init(void)
 {
@@ -635,23 +613,23 @@ int main(void)
     // Initialize.
     log_init();
     timer_init();
-    uart_init();
     buttons_leds_init();
     db_discovery_init();
     power_management_init();
     ble_stack_init();
     gatt_init();
-    nus_c_init();
+    nus_c_init(); //Initializes Nordic Uart Service
     scan_init();
 
     // Start execution.
-    printf("BLE UART central example started.\r\n");
+    //printf("BLE UART central example started.\r\n");
     NRF_LOG_INFO("BLE UART central example started.");
     scan_start();
 
     // Enter main loop.
     for (;;)
     {
+
         idle_state_handle();
     }
 }
