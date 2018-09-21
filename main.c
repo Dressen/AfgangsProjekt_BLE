@@ -74,6 +74,8 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 #include "nrf_ble_scan.h"
+#include "app_uart.h"
+#include "nrf_drv_gpiote.h"
 
 
 #define APP_BLE_CONN_CFG_TAG        1                                   /**< A tag identifying the SoftDevice BLE configuration. */
@@ -95,6 +97,21 @@
 #define SCAN_DURATION_WITELIST      3000                                /**< Duration of the scanning in units of 10 milliseconds. */
 
 #define TARGET_UUID                 BLE_UUID_HEART_RATE_SERVICE         /**< Target device uuid that application is looking for. */
+
+#ifdef BSP_BUTTON_3
+    #define PIN_IN BSP_BUTTON_3
+#endif
+#ifndef PIN_IN
+    #error "Please indicate input pin"
+#endif
+
+#ifdef BSP_LED_3
+    #define PIN_OUT BSP_LED_3
+#endif
+#ifndef PIN_OUT
+    #error "Please indicate output pin"
+#endif
+
 
 /**@brief Macro to unpack 16bit unsigned UUID from octet stream. */
 #define UUID16_EXTRACT(DST, SRC) \
@@ -130,7 +147,7 @@ static ble_gap_scan_params_t const m_scan_param =
 /**@brief Names which the central applications will scan for, and which will be advertised by the peripherals.
  *  if these are set to empty strings, the UUIDs defined below will be used
  */
-static char const m_target_periph_name[] = "";      /**< If you want to connect to a peripheral using a given advertising name, type its name here. */
+static char const m_target_periph_name[] = "Galaxy S9";      /**< If you want to connect to a peripheral using a given advertising name, type its name here. */
 static bool is_connect_per_addr = false;            /**< If you want to connect to a peripheral with a given address, set this to true and put the correct address in the variable below. */
 
 static ble_gap_addr_t const m_target_periph_addr =
@@ -238,9 +255,11 @@ NRF_PWR_MGMT_HANDLER_REGISTER(shutdown_handler, APP_SHUTDOWN_HANDLER_PRIORITY);
  */
 static void ble_evt_handler(ble_evt_t const * p_ble_evt, void * p_context)
 {
+
     ret_code_t            err_code;
     ble_gap_evt_t const * p_gap_evt = &p_ble_evt->evt.gap_evt;
 
+    //NRF_LOG_INFO("Event_ID 0x%x", p_ble_evt->header.evt_id);
     switch (p_ble_evt->header.evt_id)
     {
         case BLE_GAP_EVT_CONNECTED:
@@ -340,6 +359,7 @@ static void ble_evt_handler(ble_evt_t const * p_ble_evt, void * p_context)
 
         default:
             break;
+
     }
 }
 
@@ -793,6 +813,7 @@ static void gatt_evt_handler(nrf_ble_gatt_t * p_gatt, nrf_ble_gatt_evt_t const *
 static void scan_evt_handler(scan_evt_t const * p_scan_evt)
 {
     ret_code_t err_code;
+    NRF_LOG_INFO("Info: %s", p_scan_evt->params.filter_match.p_adv_report->data.p_data)
     switch(p_scan_evt->scan_evt_id)
     {
         case NRF_BLE_SCAN_EVT_WHITELIST_REQUEST:
@@ -929,12 +950,40 @@ void scanning_start(bool * p_erase_bonds)
     }
 }
 
+void in_pin_handler(nrf_drv_gpiote_pin_t pin, nrf_gpiote_polarity_t action)
+{
+    nrf_drv_gpiote_out_toggle(PIN_OUT);
+}
+
+/**
+ * @brief Function for configuring: PIN_IN pin for input, PIN_OUT pin for output,
+ * and configures GPIOTE to give an interrupt on pin change.
+ */
+void gpio_init(void)
+{
+    ret_code_t err_code;
+
+    err_code = nrf_drv_gpiote_init();
+    APP_ERROR_CHECK(err_code);
+
+    nrf_drv_gpiote_out_config_t out_config = GPIOTE_CONFIG_OUT_SIMPLE(false);
+
+    err_code = nrf_drv_gpiote_out_init(PIN_OUT, &out_config);
+    APP_ERROR_CHECK(err_code);
+
+    nrf_drv_gpiote_in_config_t in_config = GPIOTE_CONFIG_IN_SENSE_TOGGLE(true);
+    in_config.pull = NRF_GPIO_PIN_PULLUP;
+
+    err_code = nrf_drv_gpiote_in_init(PIN_IN, &in_config, in_pin_handler);
+    APP_ERROR_CHECK(err_code);
+
+    nrf_drv_gpiote_in_event_enable(PIN_IN, true);
+}
+
 
 int main(void)
 {
     bool erase_bonds;
-
-    // Initialize.
     log_init();
     timer_init();
     power_management_init();
@@ -949,6 +998,8 @@ int main(void)
 
     // Start execution.
     NRF_LOG_INFO("Heart Rate collector example started.");
+
+
     scanning_start(&erase_bonds);
 
     // Enter main loop.

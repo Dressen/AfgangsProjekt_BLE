@@ -135,7 +135,12 @@ _build/nrf52832_xxaa/main.c.o: ../../..//main.c \
  c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\arm-none-eabi\include\machine\stdlib.h \
  c:\nrf52\sdk\components\libraries\balloc\nrf_balloc.h \
  c:\nrf52\sdk\components\libraries\log\nrf_log_default_backends.h \
- c:\nrf52\sdk\components\ble\nrf_ble_scan\nrf_ble_scan.h
+ c:\nrf52\sdk\components\ble\nrf_ble_scan\nrf_ble_scan.h \
+ c:\nrf52\sdk\components\libraries\uart\app_uart.h \
+ c:\nrf52\sdk\integration\nrfx\legacy\nrf_drv_gpiote.h \
+ c:\nrf52\sdk\modules\nrfx\drivers\include\nrfx_gpiote.h \
+ c:\nrf52\sdk\modules\nrfx\hal\nrf_gpiote.h \
+ c:\nrf52\sdk\modules\nrfx\hal\nrf_gpio.h
 
 c:\nrf52\gnu\ tools\ arm\ embedded\5.4\ 2016q3\lib\gcc\arm-none-eabi\5.4.1\include\stdint.h:
 
@@ -412,3 +417,13 @@ c:\nrf52\sdk\components\libraries\balloc\nrf_balloc.h:
 c:\nrf52\sdk\components\libraries\log\nrf_log_default_backends.h:
 
 c:\nrf52\sdk\components\ble\nrf_ble_scan\nrf_ble_scan.h:
+
+c:\nrf52\sdk\components\libraries\uart\app_uart.h:
+
+c:\nrf52\sdk\integration\nrfx\legacy\nrf_drv_gpiote.h:
+
+c:\nrf52\sdk\modules\nrfx\drivers\include\nrfx_gpiote.h:
+
+c:\nrf52\sdk\modules\nrfx\hal\nrf_gpiote.h:
+
+c:\nrf52\sdk\modules\nrfx\hal\nrf_gpio.h:
